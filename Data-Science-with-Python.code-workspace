@@ -5,6 +5,7 @@
     }
   ],
   "settings": {
-    "jupyter.jupyterServerType": "remote"
+    "jupyter.jupyterServerType": "remote",
+    "python.pythonPath": "C:\\Users\\shekhd2\\Anaconda3\\python.exe"
   }
 }
