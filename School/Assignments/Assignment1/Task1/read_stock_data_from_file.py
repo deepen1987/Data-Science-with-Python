@@ -8,29 +8,16 @@ constructs a list of lines
 """
 import os
 
-ticker='SPY'
-input_dir = r'C:\Users\epinsky\bu\python\data_science_with_Python\datasets'
+ticker = 'SAP'
+input_dir = os.getcwd()
 ticker_file = os.path.join(input_dir, ticker + '.csv')
 
-try:   
+try:
     with open(ticker_file) as f:
         lines = f.read().splitlines()
     print('opened file for ticker: ', ticker)
-    """    your code for assignment 1 goes here
-    """
-    
+    print(lines[0:5])
+
 except Exception as e:
     print(e)
     print('failed to read stock data for ticker: ', ticker)
-
-
-
-
-
-
-
-
-
-
-
-
