@@ -47,7 +47,7 @@ def get_stock(ticker, start_date, end_date, s_window, l_window):
 
 
 try:
-    ticker = 'SAP'
+    ticker = 'DPZ'
     input_dir = os.getcwd()
     output_file = os.path.join(input_dir, ticker + '.csv')
     df = get_stock(ticker, start_date='2016-01-01', end_date='2020-12-31',
