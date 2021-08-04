@@ -7,6 +7,7 @@ The goal of the project is to predict what will be the maximum and minimum tempe
 ### Dataset:
 
 https://www.kaggle.com/smokingkrils/temperature-forecast-project-using-ml
+
 Includes 7752 observations and 25 features
 
 ### Technical Requirements:
