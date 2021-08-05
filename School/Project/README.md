@@ -2,7 +2,7 @@
 
 ### Purpose:
 
-The goal of the project is to predict what will be the maximum and minimum temperature for the next day. Using RMSE metric to evaluate my Linear Model performance.
+The goal of the project is to predict what will be the maximum and minimum temperature for the next day. I am using RMSE metric to evaluate my Linear Model performance.
 
 ### Dataset:
 
